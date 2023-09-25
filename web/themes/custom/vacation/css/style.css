@@ -1,0 +1,110 @@
+/* Profile and menu */
+
+.menu--level-1 {
+  border-bottom: 2px solid black;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  margin: 0!important;
+  font-weight: 400;
+  width: 1050px
+}
+.menu--level-1 li a {
+  margin: 10px;
+  display: flex;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+.menu--level-1 li a:hover {
+  font-weight: 700;
+}
+.menu--level-1 .menu__item--active-trail {
+  font-weight: 700;
+}
+.field--name-user-picture img {
+  border-radius: 50%;
+}
+.field--name-roles .field__items {
+  display: flex;
+}
+.field--name-roles .field__items .field__item {
+  margin-right: 5px;
+}
+.field--name-roles .field__items .field__item::after {
+  content: ",";
+}
+.field--name-roles .field__items .field__item:last-child::after {
+  content: "";
+}
+.layout__region--second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.primary-nav__menu--level-1 {
+  margin: 0!important;
+}
+.primary-nav__menu--level-1 li {
+  margin-right: 20px!important;
+}
+.js-form-managed-file img {
+ border-radius: 0;
+ width: 100px;
+ height: 100px;
+}
+
+/* Button */
+
+.workflow-button-approve {
+  color: #fff;
+  background-color: #0d77b5;
+}
+
+.workflow-button-approve:hover,
+.workflow-button-approve:focus {
+  color: #fff;
+  border-color: #0f6292;
+  background-color: #0f6292;
+}
+
+.workflow-button-waiting {
+ display: none;
+}
+
+.workflow-button-not-cancel {
+  display: none;
+}
+
+/* Balance */
+
+.is-overlay-active .header-nav-overlay {
+  display: block;
+}
+.block-views-blockmy-certificate-balance-for-displaying {
+   display: flex;
+   margin-top: 12px;
+   align-items: baseline;
+   font-weight: 700;
+   font-size: 16px;
+}
+.block-views-blockmy-certificate-balance-for-displaying h2 {
+   padding: 0 10px 0 18px;
+   font-size: 16px;
+   font-weight: 700;
+   color: black;
+}
+.block-views-blockmy-certificate-balance-for-displaying::before {
+  content: "|";
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* View */
+
+.views-field-field-reason p {
+  margin-top: 0
+}

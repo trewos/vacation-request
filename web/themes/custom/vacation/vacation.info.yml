@@ -1,0 +1,8 @@
+name: 'Vacation Theme'
+type: theme
+description: 'Custom Theme'
+base theme: olivero
+core_version_requirement: 9.x
+
+libraries:
+  - vacation/global
